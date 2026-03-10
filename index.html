@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <link rel="stylesheet" href="./pdf generator/pdfGenerator.css">
+</head>
+
+<body>
+  <form action="" id="form">
+    <div class="data"><label for="name">Name:</label>
+      <input type="text" placeholder="Enter your name" id="name" name="name" class="field" required>
+    </div>
+    
+    <div class="data"><label for="roll">Roll:</label>
+      <input type="number" placeholder="Enter 7 digit roll" id="roll" name="roll" class="field" required>
+    </div>
+    <div class="data">
+
+<label>Section:</label>
+
+<input type="radio" name="section" value="0" required>Assignment
+<input type="radio" name="section" value="1" required> Lab Report
+
+</div>
+    <div class="data">
+   <label for="courseNo">Course No:</label>
+      <input type="text" placeholder="Course No" id="courseNo" name="courseNo" class="field" required>
+    </div>
+    <div class="data">
+   <label for="courseTitle">Course Title:</label>
+      <input type="text" placeholder="Course Title" id="courseTitle" name="courseTitle" class="field" required>
+    </div>
+    
+    <div class="data"><label for="assignmentNo">Assignt/Exp No:</label>
+      <input type="number" id="assignmentNo" placeholder="Assignment/Experiment No" name="assignmentNo" class="field" required>
+    </div>
+    <div class="data"><label for="assignmentTitle">Assign/Exp Name:</label>
+      <input type="text" id="assignmentTitle" placeholder="Assignment/Experiment Name" name="assignmentTitle" class="field" required>
+    </div>
+    <div class="data"><label for="teacherName">Teacher:</label>
+      <input type="text" placeholder="Enter teacher's name" id="teacherName" name="teacherName" class="field" required>
+    </div>
+    <div class="data"><label for="teacherDept">Department:</label>
+      <input type="text" list="dept" id="teacherDept" placeholder="Teacher's Department" name="teacherDept" class="field" required>
+    </div>
+    <div class="data">
+      <label for="date">Submission Date:</label>
+      <input type="date" id="date" name="date" class="field" required>
+    </div>
+    
+    <input type="submit" value="Submit" id="submit">
+  </form>
+  <datalist id="dept">
+    <option value="Civil Engineering">
+    <option value="Electrical and Electronic Engineering">
+    <option value="Mechanical Engineering">
+    <option value="Computer Science and Engineering">
+    <option value="Electronics and Communication Engineering">
+    <option value="Industrial and Production Engineering">
+    <option value="Ceramics and Metallurgical Engineering">
+    <option value="Urban and Regional Planning">
+    <option value="Mechatronics Engineering">
+    <option value="Architecture">
+    <option value="Electrical and Computer Engineering">
+    <option value="Chemical Engineering">
+    <option value="Building Engineering and Construction Management">
+    <option value="Material Science and Engineering">
+    <option value="Physics">
+    <option value="Chemistry">
+    <option value="Mathematics">
+      <option value="Humanities"></option>
+  </datalist>
+  <div id="content" style="display: none;">
+
+  </div>
+  <div id="btn">
+
+  </div>
+  <script src="./pdf generator/pdfGenerator.js"></script>
+</body>
+
+</html>
