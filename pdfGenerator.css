@@ -1,0 +1,163 @@
+body {
+  background: #3b3939;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+}
+
+#moto {
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 16px;
+  font-family: Lucida Handwriting, cursive;
+  z-index: 2;
+}
+
+#ruet {
+  text-align: center;
+  margin-top: 8px;
+}
+
+#deptName {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14pt;
+  z-index: 2;
+}
+
+#ruetLogo {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+
+#assignment {
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  position: relative;
+  left: calc(50% - 100px);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#courseDetails {
+  position: relative;
+  top: 90px;
+  z-index: 2;
+}
+
+table {
+  width: 100%;
+  height: 300px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  position: relative;
+  top: 150px;
+  z-index: 2;
+}
+
+th {
+  font-size: 12pt;
+  padding: 8px;
+  background-color: #f2f2f2;
+  width: 50%;
+}
+
+td {
+  font-size: 12pt;
+  padding: 8px;
+}
+
+.text {
+  font-size: 12pt;
+}
+
+#submission {
+  position: relative;
+  top: 200px;
+  font-size: 12pt;
+}
+
+#backgroundImage {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  width: 70%;
+  z-index: 1;
+}
+#form{
+  background-color: bisque;
+  width: 410px;
+  padding:20px;
+  margin: 30px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  overflow: hidden auto;
+  scrollbar-width: none;
+  box-sizing: border-box;
+}
+.field{
+  padding: 10px;
+  width: 50%;
+  outline: none;
+  border: none;
+}
+select{
+  width: 50%;
+  padding: 10px;
+}
+#submit{
+  width: 100px;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button{
+  width: 120px;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+.data{
+  width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+label{
+  font-size: 18px;
+  margin-right: 10px;
+  width: 40%;
+}
