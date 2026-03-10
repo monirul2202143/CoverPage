@@ -109,7 +109,7 @@ form.addEventListener('submit', function (event) {
     Rajshahi University of Engineering and Technology
   </h1>
 
-  <img src="./Image/ruet-monogram-4176-x-5000.png"
+  <img src="./ruet-monogram-4176-x-5000.png"
        alt="RUET Logo"
        id="ruetLogo">
 
@@ -143,7 +143,7 @@ form.addEventListener('submit', function (event) {
   <h3 id="submission">Submission Date: ${getFormattedDate(date.value)}</h3>
 
   <img id="backgroundImage"
-       src="./Image/ruet-monogram-4176-x-5000.png"
+       src="./ruet-monogram-4176-x-5000.png"
        alt="background image">
       `
     btnDiv.innerHTML = '<button onclick="generatePDF()">Download PDF</button><button onclick = "reset()"> Reset</button>';
@@ -185,4 +185,5 @@ const getFormattedDate = (dateInput) => {
   const formattedDate = `${parts[2]}/${parts[1]}/${parts[0]}`;
 
   return formattedDate;
+
 }
