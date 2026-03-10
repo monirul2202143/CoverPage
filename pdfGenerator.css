@@ -107,7 +107,7 @@ td {
 }
 #form{
   background-color: bisque;
-  width: 410px;
+  width: 380px;
   padding:20px;
   margin: 30px;
   height: 570px;
@@ -161,3 +161,4 @@ label{
   margin-right: 10px;
   width: 40%;
 }
+
